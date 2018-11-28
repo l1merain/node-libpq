@@ -1,5 +1,5 @@
 var PQ = module.exports = require('bindings')('addon.node').PQ;
-
+//electron fix 
 //print out the include dir
 //if you want to include this in a binding.gyp file
 if(!module.parent) {
