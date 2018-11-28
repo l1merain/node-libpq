@@ -1,4 +1,4 @@
-var PQ = module.exports = require('pg-native.node').PQ;
+var PQ = module.exports = require('electron').remote.require(__dirname + '/pg-native.node').PQ;
 //electron fix 
 //print out the include dir
 //if you want to include this in a binding.gyp file
